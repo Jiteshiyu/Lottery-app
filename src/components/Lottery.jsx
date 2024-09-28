@@ -14,7 +14,7 @@ export default function Lottery({ ticketSize = 3, winCondition }) {
 
   return (
     <div className="lottery-app">
-      <h1 className="app-heading">Lottery Game!</h1>
+      <h1 className="app-heading">Luckydrawz!</h1>
       <Ticket ticket={ticket}></Ticket> {/* Display the ticket */}
       <h3 className="win-title">{isWinning && "Congratulations you won!"}</h3> {/* Winning message */}
       <BuyTicket action={buyTicket} /> {/* Button to buy a new ticket */}

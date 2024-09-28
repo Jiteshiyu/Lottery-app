@@ -1,4 +1,4 @@
-# Lottery App
+# Luckydrawz
 
 This is a Lottery App built with React where users can buy tickets and check if they've won based on a defined winning condition. The app utilizes random number generation to create tickets and demonstrates component-based architecture and state management using React's `useState` hook.
 
@@ -45,8 +45,8 @@ Ensure that Node.js and npm are installed on your machine. If not, you can downl
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Jiteshiyu/Lottery-app.git
-   cd Lottery-app
+   git clone https://github.com/Jiteshiyu/Luckydrawz.git
+   cd Luckydrawz
    ```
 
 2. Install the dependencies:

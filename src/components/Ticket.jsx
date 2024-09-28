@@ -5,7 +5,7 @@ export default function Ticket({ ticket }) {
     <p className="ticket">
       Ticket :{" "}
       {ticket.map((num, idx) => (
-        <TicketNum num={num} key={idx} />
+        <TicketNum num={num} key={idx} /> // Render each ticket number
       ))}
     </p>
   );

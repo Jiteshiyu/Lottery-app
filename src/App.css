@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif; 
-  background: url("/lottery-bg")
+  background: url("/lottery-bg.png")
     no-repeat center;
   background-size: cover;
   height: 100vh; 

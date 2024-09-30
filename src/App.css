@@ -12,10 +12,10 @@ body {
 .lottery-app {
   min-width: 320px;
   padding: 2rem;
-  justify-content: center;
   color: #fff;
   background-color: #555;
   border-radius: 1rem;
+  text-align: center;
   transition: transform 0.3s ease;
 }
 
@@ -25,6 +25,7 @@ body {
 
 /* App heading style */
 .app-heading {
+  color: #f41212;
   font-size: 2.2rem;
   font-weight: bold;
   margin-top: 0;
@@ -59,7 +60,7 @@ body {
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
-  transition: all 0.3s linear;
+  transition: all 0.1s linear;
 }
 
 /* Hover effect for ticket button */

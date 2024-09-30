@@ -18,7 +18,6 @@ This is a Lottery App built with React.
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
 - [Challenges and Learnings](#challenges-and-learnings)
-- [Contributing](#contributing)
 
 ## Demo
 
@@ -80,31 +79,21 @@ The app is built with React and uses the `useState` hook for managing the lotter
 
 Here’s a breakdown of its functionality:
 
-1. Ticket Generation: A new lottery ticket is generated when the user clicks the "Get New Ticket" button.
-2. Winning Condition: The app checks if the generated ticket meets the defined winning condition.
-3. Display: The app displays the ticket numbers and informs the user if they have won.
+1. **Ticket Generation:** A new lottery ticket is generated when the user clicks the "Get New Ticket" button.
+2. **Winning Condition:** The app checks if the generated ticket meets the defined winning condition.
+3. **Display:** The app displays the ticket numbers and informs the user if they have won.
 
 ## Future Improvements
 
-- Enhance Winning Conditions: Allow for more complex winning conditions and patterns.
-- Multiple Tickets: Implement functionality to allow users to generate and keep track of multiple tickets.
-- User Accounts: Enable user registration and login to save ticket history and preferences.
+- **Enhance Winning Conditions:** Allow for more complex winning conditions and patterns.
+- **Multiple Tickets:** Implement functionality to allow users to generate and keep track of multiple tickets.
+- **User Accounts:** Enable user registration and login to save ticket history and preferences.
 
 ## Challenges and Learnings
 
-- Random Number Generation: Learning to use functions to generate random numbers efficiently and how to represent them visually in UI.
-- State Management: Using React’s `useState` hook for managing the state of the ticket and understanding how to update state based on user interactions.
-- Component Reusability: Structuring components to enhance reusability and maintainability, like breaking down the ticket display into individual components.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas for new features or improvements, feel free to submit a pull request or open an issue.
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a pull request
+- **Random Number Generation:** Learning to use functions to generate random numbers efficiently and how to represent them visually in UI.
+- **State Management:** Using React’s `useState` hook for managing the state of the ticket and understanding how to update state based on user interactions.
+- **Component Reusability:** Structuring components to enhance reusability and maintainability, like breaking down the ticket display into individual components.
 
 ## Support
 Give a 🌟 to this repo if you liked it .

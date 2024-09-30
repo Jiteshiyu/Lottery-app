@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif; 
-  background: url("./public/background.png") no-repeat center;
+  background: url("/public/background.png") no-repeat center;
   background-size: cover;
   height: 100vh; 
   display: flex; 

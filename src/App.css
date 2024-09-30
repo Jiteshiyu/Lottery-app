@@ -5,14 +5,16 @@ body {
   height: 100vh; 
   display: flex; 
   justify-content: center; 
+  align-items: center;
 }
 
 /* Lottery app container */
 .lottery-app {
   min-width: 320px;
   padding: 2rem;
-  align-items: center; 
-  background-color: #f4f4f4;
+  justify-content: center;
+  color: #fff;
+  background-color: #555;
   border-radius: 1rem;
   transition: transform 0.3s ease;
 }
@@ -36,7 +38,7 @@ body {
 /* Individual ticket number style */
 .ticket-num {
   padding: 0.2rem;
-  border: 2px solid #333;
+  border: 2px solid #fff;
 }
 
 /* Winning title style */
@@ -57,7 +59,7 @@ body {
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
-  transition: all 0.05s linear;
+  transition: all 0.3s linear;
 }
 
 /* Hover effect for ticket button */

@@ -11,7 +11,8 @@ function App() {
 
   return (
     <>
-      <Lottery ticketSize={3} winCondition={winCondition} /> {/* Render Lottery component */}
+      {/* Render Lottery component */}
+      <Lottery ticketSize={3} winCondition={winCondition} />
     </>
   );
 }

@@ -4,20 +4,27 @@ import BuyTicket from "./Buy.jsx";
 import Ticket from "./Ticket.jsx";
 
 export default function Lottery({ ticketSize = 3, winCondition }) {
-  let [ticket, setTicket] = useState(genTicket(ticketSize)); // Initialize ticket state
+  // Initialize ticket state
+  let [ticket, setTicket] = useState(genTicket(ticketSize));
 
+  // Generate a new ticket
   let buyTicket = () => {
-    setTicket(genTicket(ticketSize)); // Generate a new ticket
+    setTicket(genTicket(ticketSize));
   };
 
-  let isWinning = winCondition(ticket); // Check if the current ticket is a winning ticket
+  // Check if the current ticket is a winning ticket
+  let isWinning = winCondition(ticket);
 
   return (
+    // Lottery App
     <div className="lottery-app">
       <h1 className="app-heading">Luckydrawz!</h1>
-      <Ticket ticket={ticket}></Ticket> {/* Display the ticket */}
-      <h3 className="win-title">{isWinning && "Congratulations you won!"}</h3> {/* Winning message */}
-      <BuyTicket action={buyTicket} /> {/* Button to buy a new ticket */}
+      {/* Display the ticket */}
+      <Ticket ticket={ticket}></Ticket>
+      {/* Winning message */}
+      <h3 className="win-title">{isWinning && "Congratulations you won!"}</h3>
+      {/* Button to buy a new ticket */}
+      <BuyTicket action={buyTicket} />
     </div>
   );
 }

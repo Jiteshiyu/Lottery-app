@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif; 
-  background: url("https://static.vecteezy.com/system/resources/thumbnails/001/924/174/small/jackpot-casino-podium-golden-coins-banner-vector.jpg") 
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210907/pngtree-coupon-background-lottery-ticket-background-image_813760.jpg") 
     no-repeat center;
   background-size: cover;
   background-position: center;
@@ -25,7 +25,6 @@ body {
   text-align: center;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  box-sizing: border-box;
 }
 
 .lottery-app:hover {

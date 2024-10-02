@@ -15,13 +15,16 @@ body {
 
 /* Lottery App Styles */
 .lottery-app {
-  min-width: 320px;
+  width: 90%;
+  max-width: 350px;
   padding: 2rem;
   color: #333;
-  background-color: #f4f4f4;
+  background-color: #f3f3f3;
   border-radius: 1.25rem;
   text-align: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  box-sizing: border-box;
 }
 
 .lottery-app:hover {
@@ -31,7 +34,7 @@ body {
 /* App Heading Styles */
 .app-heading {
   color: #333;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: bold;
   margin-top: 0;
 }
@@ -43,14 +46,15 @@ body {
 
 /* Ticket Number Styles */
 .ticket-num {
-  padding: 0.2rem;
+  padding: 0.5rem;
   border: 2px solid #333;
+  border-radius: 0.3rem;
 }
 
 /* Winning Title Styles */
 .win-title {
   color: #f41212;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -59,9 +63,9 @@ body {
 .ticket-btn {
   color: #fff;
   background-color: #007bff;
-  margin: 0.3rem;
+  margin: 0.5rem;
   padding: 0.7rem 1.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -73,3 +77,27 @@ body {
   background-color: #0056b3;
   transform: scale(1.01);
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .app-heading {
+    font-size: 2rem;
+  }
+
+  .ticket {
+    font-size: 1.3rem;
+  }
+
+  .ticket-num {
+    font-size: 1.2rem;
+  }
+
+  .win-title {
+    font-size: 1.5rem;
+  }
+
+  .ticket-btn {
+    padding: 0.6rem;
+  }
+}
+

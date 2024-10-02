@@ -21,7 +21,7 @@ This is a Lottery App built with React.
 
 ## Demo
 
-You can view a live demo of the project [here](https://luckydrawz.netlify.app/).
+You can view a live demo of the project [Luckydrawz](https://luckydrawz.netlify.app/).
 
 ## Features
 

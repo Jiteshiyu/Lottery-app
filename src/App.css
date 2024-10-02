@@ -24,7 +24,6 @@ body {
   text-align: center;
   border: 2px solid #fff;
   border-radius: 1.25rem;
-  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.7);
   transition: transform 0.3s ease;
 }
 

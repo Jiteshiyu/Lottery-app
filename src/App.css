@@ -8,9 +8,6 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
   overflow: hidden;
 }
 
@@ -19,6 +16,7 @@ body {
   width: 90%;
   max-width: 350px;
   padding: 1.7rem;
+  margin: auto;
   color: #fff;
   background-color: #333;
   text-align: center;

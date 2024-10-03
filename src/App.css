@@ -81,12 +81,8 @@ body {
 }
 
 @media (max-width: 450px) {
-  body {
-    display: block;
-  }
-  
   .lottery-app {
-    width: 95%;
+    width: 75%;
     margin: 0.5rem;
   }
 }

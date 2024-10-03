@@ -22,7 +22,7 @@ export default function Lottery({ ticketSize = 3, winCondition }) {
       {/* Display the ticket */}
       <Ticket ticket={ticket}></Ticket>
       {/* Winning message */}
-      <h3 className="win-title">{isWinning && "Congratulations you won!"}</h3>
+      <h3 className="win-title">{isWinning && "Congratulations you won !"}</h3>
       {/* Button to buy a new ticket */}
       <BuyTicket action={buyTicket} />
     </div>
